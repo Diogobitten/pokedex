@@ -1,0 +1,95 @@
+.pokedex-wrapper {
+    position: relative;
+    width: 800px;
+    height: 600px;
+  
+    /* Centralização */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .pokedex-bg {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Tela branca esquerda (imagem do pokémon) */
+  .pokemon-image {
+    position: absolute;
+    top: 200px;      /* ajustado pra alinhar com a tela branca da Pokédex */
+    left: 58px;      /* ajustado horizontalmente */
+    width: 292px;
+    height: 280px;
+    background-color: transparent; /* ou branco se quiser garantir */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    pointer-events: none;
+    
+  }
+  
+  /* Tela verde direita (informações do pokémon) */
+  .pokemon-info {
+    position: absolute;
+    top: 225px;
+    left: 475px;
+    width: 275px;
+    height: 300px;
+    background-color: #00ff00;
+    color: #000;
+    font-family: monospace;
+    font-size: 14px;
+    padding: 10px;
+    box-sizing: border-box;
+    justify-items: center;
+    text-align: center;
+    overflow-y: auto;
+    border-radius: 8px;
+  }
+  
+  .pokemon-image img {
+    width: 250px;
+    height: 450px;
+    object-fit: contain;
+  }
+
+  .search-input {
+    padding: 4px 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    font-family: monospace;
+    font-size: 12px;
+    width: 140px;
+    margin-right: 5px;
+  }
+  
+  .search-btn {
+    top: 530px;
+    padding: 4px 10px;
+    background-color: black;
+    color: lime;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  
+  .search-btn:hover {
+    background-color: #ffffff;
+  }
+  
+  .pokedex-title {
+    position: absolute;
+    top: -200px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 4.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    font-weight: bold;
+  }
+  
