@@ -36,6 +36,7 @@ html, body {
 @media (prefers-reduced-motion: no-preference) {
   a:nth-of-type(2) .logo {
     animation: logo-spin infinite 20s linear;
+    
   }
 }
 
@@ -73,4 +74,10 @@ html, body {
 
 .pokedex-closed:hover {
   transform: scale(1.05);
+}
+
+.pokemon-image{
+  position-area: left;
+  width: fit-content;
+  margin: -1%;
 }
