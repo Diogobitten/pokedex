@@ -6,7 +6,7 @@ Uma Pokédex interativa feita com **React + Vite**, consumindo a **PokéAPI**.
 
 ---
 # Preview
-<img width="3834" height="2085" alt="image" src="https://github.com/user-attachments/assets/1f2b2fa0-b9b3-4487-bc3f-e6a4dc90b1e4" />
+![Screenshot da Pokédex](pokemon.PNG)
 
 
 
