@@ -70,16 +70,79 @@ html, body {
   transform: scale(1.05);
 }
 
+  .pokemon-image img {
+    image-rendering: pixelated;
+    }
 
-@media (max-width: 768px) and (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-    
+
+@media (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    padding: 0.5rem;
+    min-height: 100vh;
+    width: 100vw;
+    height: auto;
+    background-size: cover;
+    background-position: center;
   }
-  .pokemon-image{
-  position-area: left;
-  width: fit-content;
-  margin: -1%;
+
+  .pokedex-closed {
+    width: 90vw;
+    max-width: 320px;
+  }
+
+  .pokemon-image {
+    width: 200%;
+    min-height: 80%; /* Adiciona espaço vertical */
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    margin: 12% 0 1% 0; /* Espaço acima e abaixo */
+  }
+  
+  .pokemon-image img {
+    max-width: 95vw;
+    max-height: 320px;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    image-rendering: pixelated;
 }
+
+
+}
+
+
+@media (max-width: 768px) and (min-height: 1024px) {
+  .pokemon-info {
+    width: 90vw;
+    max-width: 320px;
+    margin: 7rem auto 1rem auto;
+    box-sizing: border-box;
+    padding: 1rem;
+  }
+
+
+    .pokemon-image {
+    width: 90vw;
+    max-width: 900px; 
+    max-height: 900px; 
+    min-height: 55vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 1rem auto;
+  }
+
+  .pokemon-image img {
+    width: 100%;
+    height: auto;
+    max-width: 900%; 
+    max-height: 900%;  
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+    image-rendering: pixelated;
+  }
 
 }
