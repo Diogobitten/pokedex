@@ -1,12 +1,60 @@
-# React + Vite
+# PokéMAI — Pokédex React + ASP.NET
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma Pokédex interativa feita com **React + Vite**, consumindo a **PokéAPI**.  
+O projeto está integrado a um backend em **ASP.NET** dentro da mesma solução.
 
-Currently, two official plugins are available:
+🔗 **Demo:** [pokemai.vercel.app](https://pokemai.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+# PokéMAI — Pokédex React + ASP.NET
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## ✨ Funcionalidades
+
+- 📟 Interface de Pokédex animada (fechada/aberta)  
+- 🔎 Busca de Pokémon por nome ou número (ex.: `pikachu` ou `25`)  
+- 🎵 Player de música retrô integrado  
+- 📱 Layout responsivo e otimizado para mobile  
+- ⚡ Frontend moderno com Vite + React  
+- ⚙️ Backend ASP.NET pronto para expansão (APIs e integração futura)  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+### Frontend
+- [React 18](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- CSS (customizado)
+- [PokéAPI](https://pokeapi.co/)
+
+### Backend
+- [ASP.NET Core](https://learn.microsoft.com/aspnet/core)
+- C#
+
+---
+
+## 🚀 Como Rodar Localmente
+
+### Pré-requisitos
+- Node.js 18+ (LTS recomendado)  
+- npm / yarn / pnpm  
+- .NET 8+ (para rodar o backend)
+
+---
+
+### Rodar a Pokédex (React + Vite)
+
+```bash
+# Clonar o repositório
+git clone https://github.com/SEU_USUARIO/SEU_REPO.git
+cd SEU_REPO/pokedex
+
+# Instalar dependências
+npm install
+
+# Rodar em modo desenvolvimento
+npm run dev
