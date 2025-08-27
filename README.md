@@ -1,12 +1,12 @@
-# PokéMAI — Pokédex React + ASP.NET
+# PokéMAI — Pokédex React + Vite
 
 Uma Pokédex interativa feita com **React + Vite**, consumindo a **PokéAPI**.  
-O projeto está integrado a um backend em **ASP.NET** dentro da mesma solução.
 
 🔗 **Demo:** [pokemai.vercel.app](https://pokemai.vercel.app)
 
 ---
-# PokéMAI — Pokédex React + ASP.NET
+# Preview
+<img width="3834" height="2085" alt="image" src="https://github.com/user-attachments/assets/1f2b2fa0-b9b3-4487-bc3f-e6a4dc90b1e4" />
 
 
 
@@ -19,7 +19,6 @@ O projeto está integrado a um backend em **ASP.NET** dentro da mesma solução.
 - 🎵 Player de música retrô integrado  
 - 📱 Layout responsivo e otimizado para mobile  
 - ⚡ Frontend moderno com Vite + React  
-- ⚙️ Backend ASP.NET pronto para expansão (APIs e integração futura)  
 
 ---
 
@@ -31,10 +30,6 @@ O projeto está integrado a um backend em **ASP.NET** dentro da mesma solução.
 - CSS (customizado)
 - [PokéAPI](https://pokeapi.co/)
 
-### Backend
-- [ASP.NET Core](https://learn.microsoft.com/aspnet/core)
-- C#
-
 ---
 
 ## 🚀 Como Rodar Localmente
@@ -42,7 +37,6 @@ O projeto está integrado a um backend em **ASP.NET** dentro da mesma solução.
 ### Pré-requisitos
 - Node.js 18+ (LTS recomendado)  
 - npm / yarn / pnpm  
-- .NET 8+ (para rodar o backend)
 
 ---
 
